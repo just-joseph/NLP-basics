@@ -1,6 +1,7 @@
 # NLP-basics
 
 Topics covered:
+
 Day 1:
 •	High level applications of NLP
 •	Theory: NLP tasks like stemming, lemmatization, stopword removal 
