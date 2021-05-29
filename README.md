@@ -1,23 +1,23 @@
 Topics covered:
 
 Day 1:
-•	High level applications of NLP
-•	Theory: NLP tasks like stemming, lemmatization, stopword removal 
-•	Theory: Text embeddings/ vectorization concept, tfidf and one-hot encoding (or Bag of Words) vector calculation.
+1. High level applications of NLP
+2. Theory: NLP tasks like stemming, lemmatization, stopword removal 
+3. Theory: Text embeddings/ vectorization concept, tfidf and one-hot encoding (or Bag of Words) vector calculation.
 
 Day 2:
-•	Code implementation of basic text analysis along with tokenization, stemming, lemmatization, stopword removal etc. using NLTK
+1. Code implementation of basic text analysis along with tokenization, stemming, lemmatization, stopword removal etc. using NLTK
 
 Day 3:
-•	Theory: Intro to NLP tasks like topic modeling, text clustering, text classification, similarity comparison.
-•	Theory: Average workflow of ML/ DL model for NLP tasks.
-•	Theory: Concept of word2vec
+1. Theory: Intro to NLP tasks like topic modeling, text clustering, text classification, similarity comparison.
+2. Theory: Average workflow of ML/ DL model for NLP tasks.
+3. Theory: Concept of word2vec
 https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469 
-•	Code implementation: Vectorization using tfidf and spacy.
-Steps for tfidf:
-    o	Fit a tfidf vectorizer using a corpus of text (the vectorizer learns the different words or tokens from the corpus)
+4. Code implementation: Vectorization using tfidf and spacy.
+    a. Steps for tfidf:
+        i. Fit a tfidf vectorizer using a corpus of text (the vectorizer learns the different words or tokens from the corpus)
 tfidfvectorizer.fit(corpus)
-    o	Transform new sentences using the created vectorizer to generate embeddings.
+        ii. Transform new sentences using the created vectorizer to generate embeddings.
 tfidf_embedding = tfidfvectorizer.transform( [‘I have a car’] ).toarray()
 Steps for Spacy:
 •	Import spacy package to python and import the appropriate spacy model for English language (we used the sm model)
