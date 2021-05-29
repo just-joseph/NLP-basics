@@ -1,3 +1,5 @@
+https://huggingface.co/models
+
 Topics covered:
 
 Day 1:
